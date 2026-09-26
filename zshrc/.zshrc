@@ -17,7 +17,7 @@ setopt inc_append_history
 source <(fzf --zsh)
 
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$HOME/.local/share/omarchy/bin:$PATH"
-eval "$(~/.local/bin/mise activate zsh)"
+# eval "$(~/.local/bin/mise activate zsh)"
 
 new_tmux () {
   session_dir=$(zoxide query --list | fzf)
@@ -46,3 +46,4 @@ new_tmux () {
 }
 
 alias tm=new_tmux
+alias f="yazi"

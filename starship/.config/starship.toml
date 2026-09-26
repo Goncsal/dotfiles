@@ -26,47 +26,49 @@ $time\
 [ ](fg:purple)\
 $line_break$character"""
 
-palette = 'catppuccin_mocha'
+palette = 'monochrome'
 
 [palettes.gruvbox_dark]
-color_fg0 = '#fbf1c7'
-color_bg1 = '#3c3836'
-color_bg3 = '#665c54'
-color_blue = '#458588'
-color_aqua = '#689d6a'
-color_green = '#98971a'
-color_orange = '#d65d0e'
-color_purple = '#b16286'
-color_red = '#cc241d'
-color_yellow = '#d79921'
+color_fg0 = '#f0f0f0'
+color_bg1 = '#393939'
+color_bg3 = '#5e5e5e'
+color_blue = '#787878'
+color_aqua = '#8e8e8e'
+color_green = '#8e8e8e'
+color_orange = '#717171'
+color_purple = '#757575'
+color_red = '#474747'
+color_yellow = '#9e9e9e'
 
-[palettes.catppuccin_mocha]
-rosewater = "#f5e0dc"
-flamingo = "#f2cdcd"
-pink = "#f5c2e7"
-orange = "#cba6f7"
-red = "#f38ba8"
-maroon = "#eba0ac"
-peach = "#fab387"
-yellow = "#f9e2af"
-green = "#a6e3a1"
-teal = "#94e2d5"
-sky = "#89dceb"
-sapphire = "#74c7ec"
-blue = "#89b4fa"
-lavender = "#b4befe"
-text = "#cdd6f4"
-subtext1 = "#bac2de"
-subtext0 = "#a6adc8"
-overlay2 = "#9399b2"
-overlay1 = "#7f849c"
-overlay0 = "#6c7086"
-surface2 = "#585b70"
-surface1 = "#45475a"
-surface0 = "#313244"
-base = "#1e1e2e"
-mantle = "#181825"
-crust = "#11111b"
+[palettes.monochrome]
+purple = "#707070"
+color_bg3 = "#303030"
+rosewater = "#e4e4e4"
+flamingo = "#d5d5d5"
+pink = "#d0d0d0"
+orange = "#b4b4b4"
+red = "#a3a3a3"
+maroon = "#b1b1b1"
+peach = "#bfbfbf"
+yellow = "#e3e3e3"
+green = "#d1d1d1"
+teal = "#d0d0d0"
+sky = "#cbcbcb"
+sapphire = "#b8b8b8"
+blue = "#b0b0b0"
+lavender = "#c0c0c0"
+text = "#d6d6d6"
+subtext1 = "#c2c2c2"
+subtext0 = "#adadad"
+overlay2 = "#9a9a9a"
+overlay1 = "#858585"
+overlay0 = "#717171"
+surface2 = "#5c5c5c"
+surface1 = "#484848"
+surface0 = "#333333"
+base = "#1f1f1f"
+mantle = "#191919"
+crust = "#121212"
 
 [os]
 disabled = false
@@ -169,7 +171,7 @@ format = '[[ $symbol( $version) ](fg:base bg:teal)]($style)'
 [docker_context]
 symbol = ""
 style = "bg:mantle"
-format = '[[ $symbol( $context) ](fg:#83a598 bg:color_bg3)]($style)'
+format = '[[ $symbol( $context) ](fg:#9d9d9d bg:color_bg3)]($style)'
 
 [time]
 disabled = false
@@ -184,7 +186,7 @@ disabled = false
 disabled = false
 success_symbol = '[](bold fg:green)'
 error_symbol = '[](bold fg:red)'
-vimcmd_symbol = '[](bold fg:creen)'
+vimcmd_symbol = '[](bold fg:green)'
 vimcmd_replace_one_symbol = '[](bold fg:purple)'
 vimcmd_replace_symbol = '[](bold fg:purple)'
 vimcmd_visual_symbol = '[](bold fg:lavender)'
